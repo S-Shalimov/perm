@@ -7,5 +7,3 @@ def permutation(iterable, n, prefix=None):
         prefix.append(i)
         permutation(iterable, n-1, prefix)
         prefix.remove(i)
-
-permutation('123456789', 2)
